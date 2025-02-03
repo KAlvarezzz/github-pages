@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Negocio Inclusivo</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; }
+        header { background: #0044cc; color: white; text-align: center; padding: 1rem; }
+        nav { background: #003399; padding: 10px; text-align: center; }
+        nav a { color: white; text-decoration: none; margin: 0 15px; font-size: 1.2em; }
+        main { padding: 2rem; max-width: 900px; margin: auto; background: white; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        section { margin-bottom: 20px; }
+        h2 { color: #0044cc; }
+        button { background: #0044cc; color: white; padding: 10px; border: none; cursor: pointer; }
+        button:hover { background: #002a80; }
+        footer { text-align: center; padding: 1rem; background: #ddd; margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Modelo de Negocio Inclusivo</h1>
+    </header>
+    <nav>
+        <a href="#importancia">¿Por qué es importante?</a>
+        <a href="#principios">Principios</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+    <main>
+        <section id="importancia">
+            <h2>¿Por qué es importante?</h2>
+            <p>La inclusión en los negocios permite crear oportunidades para todas las personas, sin importar sus capacidades. Generar espacios accesibles y diversas oportunidades ayuda al crecimiento de la sociedad.</p>
+            <img src="inclusion.jpg" alt="Personas trabajando en un ambiente inclusivo" width="100%">
+        </section>
+        <section id="principios">
+            <h2>Principios de Inclusión</h2>
+            <ul>
+                <li><strong>Modelo Médico:</strong> Se enfoca en la discapacidad desde el punto de vista clínico.</li>
+                <li><strong>Modelo Social:</strong> Promueve la eliminación de barreras sociales y ambientales.</li>
+                <li><strong>Modelo Económico:</strong> Busca la integración laboral y productiva.</li>
+            </ul>
+        </section>
+        <section id="contacto">
+            <h2>Contacto y Recursos</h2>
+            <p>Para más información, contáctanos.</p>
+            <form>
+                <label for="nombre">Nombre:</label><br>
+                <input type="text" id="nombre" name="nombre" required><br><br>
+                <label for="email">Correo Electrónico:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+                <label for="mensaje">Mensaje:</label><br>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br><br>
+                <button type="submit">Enviar mensaje</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Inclusión para Todos | Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>
